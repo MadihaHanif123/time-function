@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+div{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    font-size: bold;
+    animation: balls 5s infinite alternate ;
+    background-color: palevioletred;
+    justify-content: center;
+    align-items: center;
+}
+.linear{
+      
+    animation-timing-function: linear;
+}
+.ease{
+    animation-timing-function:ease ;
+}
+.ease-in{
+    animation-timing-function:ease-in;
+}
+.ease-out{
+    animation-timing-function: ease-out;
+
+}
+.ease-in-out{
+    animation-timing-function:ease-in-out ;
+}
+@keyframes balls{
+    from{left:0px }
+    to{ left:500px}
+    
+}
